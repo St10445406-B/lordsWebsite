@@ -4,6 +4,16 @@ export default function Features() {
   return (
     <section className="section" id="features">
       <div className="container">
+        <div className="video-embed">
+          <iframe
+            src="https://www.youtube.com/embed/N2wwLmWffZM?loop=1&playlist=N2wwLmWffZM&autoplay=1&mute=1&playsinline=1&rel=0"
+            title="Lords & Legends Crew — app demo"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+
         <p className="eyebrow">What it does</p>
         <h2>One app for the whole crew</h2>
 
